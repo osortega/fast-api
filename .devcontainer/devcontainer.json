@@ -1,7 +1,7 @@
 {
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 	// "forwardPorts": [8000],
-	"postCreateCommand": ["pip install fastapi", "pip install \"uvicorn[standard]\"", "uvicorn main:app --reload"]
+	// "postCreateCommand": ["pip install fastapi", "pip install \"uvicorn[standard]\"", "uvicorn main:app --reload"]
 }
