@@ -3,5 +3,6 @@
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// "forwardPorts": [8000]
+	"postCreateCommand": "bash ./postCreate.sh"
 	// "postCreateCommand": ["pip install fastapi", "pip install "uvicorn[standard]"", "uvicorn main:app --reload"]
 }
